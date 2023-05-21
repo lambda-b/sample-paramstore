@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sample ParamStore</title>
+</head>
+<body>
+	Hello World!
+	<h2>Normal Parameter</h2>
+	<p th:text="${normal}" />
+	
+	<h2>Secure Parameter</h2>
+	<p th:text="${secure}" />
+	
+	<h2>Multiple Parameter</h2>
+	<div th:each="element: ${multiples}">
+		<p th:text="${element}" />
+	</div>
+</body>
+</html>
