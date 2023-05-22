@@ -7,14 +7,9 @@ spring:
     import:
       - 'aws-parameterstore:'
 
-aws:
-  paramstore:
-    region: ${AWS_USE_REGION}
-
-
 normal-param: 'yml-defined'
 secure-param: 'yml-defined-secure'
 multiple-params:
   - 'yml-defined-param01'
   - 'yml-defined-param02'
-  - 'yml-defined-param03'  
+  - 'yml-defined-param03'
