@@ -22,7 +22,7 @@ public class HelloController {
 	public String index(final Model model) {
 
 		model.addAttribute("normal", properties.getNormalParam());
-		model.addAttribute("secure", properties.getNormalParam());
+		model.addAttribute("secure", properties.getSecureParam());
 		model.addAttribute("multiples", properties.getMultipleParams());
 
 		return "hello";
